@@ -38,7 +38,7 @@ try:
 	print("Sending test data to Server...")
 	while True:
 		#Take input data to be sent to server.
-		Data = raw_input("Enter Data to be sent to server: ")
+		Data = input("Enter Data to be sent to server: ")
 
 		#Publish a message on a topic.
 		#This causes a message to be sent to the broker and subsequently from

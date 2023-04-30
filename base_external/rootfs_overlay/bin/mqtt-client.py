@@ -13,7 +13,6 @@ Port = 1883
 Keepalive = 60
 
 try:
-    print("Sending Sensor data:")
     # Client Constructor
     # Function Defination: https://github.com/eclipse/paho.mqtt.python#client-1
     client = mqtt.Client()
@@ -40,4 +39,3 @@ try:
 
 except Exception as e:
     print(e)
-
